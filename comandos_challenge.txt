@@ -1,7 +1,6 @@
 1. Get inside the thecmdchallenge/ directory
 --> cd thecmdchallenge
 
-
 2. Print current directory path
 --> pwd
 
@@ -24,4 +23,25 @@
 --> mkdir not-that-funny
 
 9. Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt
---> 
+--> cp the-mostboring-text.txt lol.txt
+
+10. Move funcode/kids.jpg inside funcode/images/hello/ 
+--> mv kids.jpg images/hello/
+
+11. Remove the “small-name“ directory
+--> rm -r small-name/
+
+12. Print in the command line the content of the-ultimate-joke.txt
+--> find . -name "the-ultimate-joke.txt" -exec cat {} \;
+
+13. Remove all the contents from the boringfolder, they are extremely boring…
+--> rm -r boringfolder/
+
+14. Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor
+--> vi dragon-ball-jokes
+
+15. Update the file kamehameha/dragon-ball-jokes.md by removing 
+the first joke you read on the file, finally save and close the text editor
+--> dd (para borrar la línea)
+--> :wq (para salir y guardar cambios)
+
