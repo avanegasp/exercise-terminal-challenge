@@ -1,0 +1,27 @@
+1. Get inside the thecmdchallenge/ directory
+--> cd thecmdchallenge
+
+
+2. Print current directory path
+--> pwd
+
+3. List all the files from the current directory including the hidden ones
+--> ls -la
+
+4. Now list all the files inside the project, recursively (all files in the hierarchy)
+--> ls
+
+5. Clear all the clutter from the command line
+--> clear
+
+6. Go to the last level below the small-name folder and show on the console the content of the trophy.txt file
+--> cat trophy.txt
+
+7. Move one level up and get to the funcode directory and list all files with the JavaScript typical extension
+--> ls *.js
+
+8. Create a new directory inside funcode/the-most-funny/ called “not-that-funny“
+--> mkdir not-that-funny
+
+9. Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt
+--> 
